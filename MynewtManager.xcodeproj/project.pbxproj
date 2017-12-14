@@ -76,6 +76,7 @@
 		5B3F69201FE1AEEF00677D1D /* UartSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F68DA1FE1AEEE00677D1D /* UartSettingsViewController.swift */; };
 		5B3F69211FE1AEEF00677D1D /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F68DC1FE1AEEE00677D1D /* StatsViewController.swift */; };
 		5B3F69221FE1AEEF00677D1D /* StatsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F68DD1FE1AEEE00677D1D /* StatsDetailViewController.swift */; };
+		5B3F69841FE2126F00677D1D /* MynewtManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F69831FE2126F00677D1D /* MynewtManagerTests.swift */; };
 		A950EB021DB00351005FC305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A950EB011DB00351005FC305 /* AppDelegate.swift */; };
 		A950EB071DB00351005FC305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A950EB051DB00351005FC305 /* Main.storyboard */; };
 		A950EB091DB00351005FC305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A950EB081DB00351005FC305 /* Assets.xcassets */; };
@@ -83,7 +84,18 @@
 		FB7A976849D841A77B1D4BBE /* Pods_MynewtManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1A5BE6A5015BA3D09A721B /* Pods_MynewtManager.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5B3F69861FE2126F00677D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A950EAF61DB00350005FC305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A950EAFD1DB00350005FC305;
+			remoteInfo = MynewtManager;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		46FE894B28836458B3A26F0E /* Pods-MynewtManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MynewtManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MynewtManagerTests/Pods-MynewtManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B3F68841FE1AEEE00677D1D /* NewtHandler+Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NewtHandler+Types.swift"; sourceTree = "<group>"; };
 		5B3F68851FE1AEEE00677D1D /* NewtHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewtHandler.swift; sourceTree = "<group>"; };
 		5B3F68871FE1AEEE00677D1D /* UartPacketManagerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPacketManagerBase.swift; sourceTree = "<group>"; };
@@ -155,7 +167,13 @@
 		5B3F68DA1FE1AEEE00677D1D /* UartSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartSettingsViewController.swift; sourceTree = "<group>"; };
 		5B3F68DC1FE1AEEE00677D1D /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		5B3F68DD1FE1AEEE00677D1D /* StatsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsDetailViewController.swift; sourceTree = "<group>"; };
+		5B3F69751FE210E800677D1D /* MynewtManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MynewtManagerTests.swift; sourceTree = "<group>"; };
+		5B3F69771FE210E800677D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3F69811FE2126F00677D1D /* MynewtManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MynewtManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3F69831FE2126F00677D1D /* MynewtManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MynewtManagerTests.swift; sourceTree = "<group>"; };
+		5B3F69851FE2126F00677D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E1A5BE6A5015BA3D09A721B /* Pods_MynewtManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MynewtManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		760276506DD74239C7BAE8BF /* Pods-MynewtManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MynewtManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MynewtManagerTests/Pods-MynewtManagerTests.release.xcconfig"; sourceTree = "<group>"; };
 		9696FE07925F011CADADBD74 /* Pods-MynewtManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MynewtManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MynewtManager/Pods-MynewtManager.debug.xcconfig"; sourceTree = "<group>"; };
 		A950EAFE1DB00351005FC305 /* MynewtManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MynewtManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A950EB011DB00351005FC305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -166,9 +184,17 @@
 		A95CE57E1DB6BB48008C234E /* MynewtManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MynewtManager.entitlements; sourceTree = "<group>"; };
 		A98F88FC1DEB4FDC00DD8800 /* MynewtManager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MynewtManager-Bridging-Header.h"; sourceTree = "<group>"; };
 		C621014BFEFE0567845CC934 /* Pods-MynewtManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MynewtManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-MynewtManager/Pods-MynewtManager.release.xcconfig"; sourceTree = "<group>"; };
+		DEC611C9EC1BA614ABBDAC3E /* Pods_MynewtManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MynewtManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5B3F697E1FE2126F00677D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A950EAFB1DB00350005FC305 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				5E1A5BE6A5015BA3D09A721B /* Pods_MynewtManager.framework */,
+				DEC611C9EC1BA614ABBDAC3E /* Pods_MynewtManagerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -414,11 +441,31 @@
 			path = stats;
 			sourceTree = "<group>";
 		};
+		5B3F69741FE210E800677D1D /* MynewtManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B3F69751FE210E800677D1D /* MynewtManagerTests.swift */,
+				5B3F69771FE210E800677D1D /* Info.plist */,
+			);
+			path = MynewtManagerTests;
+			sourceTree = "<group>";
+		};
+		5B3F69821FE2126F00677D1D /* MynewtManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B3F69831FE2126F00677D1D /* MynewtManagerTests.swift */,
+				5B3F69851FE2126F00677D1D /* Info.plist */,
+			);
+			path = MynewtManagerTests;
+			sourceTree = "<group>";
+		};
 		90132219166EB96F9E8ADB0C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				9696FE07925F011CADADBD74 /* Pods-MynewtManager.debug.xcconfig */,
 				C621014BFEFE0567845CC934 /* Pods-MynewtManager.release.xcconfig */,
+				46FE894B28836458B3A26F0E /* Pods-MynewtManagerTests.debug.xcconfig */,
+				760276506DD74239C7BAE8BF /* Pods-MynewtManagerTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -427,6 +474,8 @@
 			isa = PBXGroup;
 			children = (
 				A950EB001DB00351005FC305 /* MynewtManager */,
+				5B3F69741FE210E800677D1D /* MynewtManagerTests */,
+				5B3F69821FE2126F00677D1D /* MynewtManagerTests */,
 				A950EAFF1DB00351005FC305 /* Products */,
 				90132219166EB96F9E8ADB0C /* Pods */,
 				349CE61E6858421EB503E10E /* Frameworks */,
@@ -437,6 +486,7 @@
 			isa = PBXGroup;
 			children = (
 				A950EAFE1DB00351005FC305 /* MynewtManager.app */,
+				5B3F69811FE2126F00677D1D /* MynewtManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -471,6 +521,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5B3F69801FE2126F00677D1D /* MynewtManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3F69881FE2127000677D1D /* Build configuration list for PBXNativeTarget "MynewtManagerTests" */;
+			buildPhases = (
+				5B3F697D1FE2126F00677D1D /* Sources */,
+				5B3F697E1FE2126F00677D1D /* Frameworks */,
+				5B3F697F1FE2126F00677D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B3F69871FE2126F00677D1D /* PBXTargetDependency */,
+			);
+			name = MynewtManagerTests;
+			productName = MynewtManagerTests;
+			productReference = 5B3F69811FE2126F00677D1D /* MynewtManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A950EAFD1DB00350005FC305 /* MynewtManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A950EB101DB00351005FC305 /* Build configuration list for PBXNativeTarget "MynewtManager" */;
@@ -497,10 +565,15 @@
 		A950EAF61DB00350005FC305 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Adafruit;
 				TargetAttributes = {
+					5B3F69801FE2126F00677D1D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A950EAFD1DB00350005FC305;
+					};
 					A950EAFD1DB00350005FC305 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2X94RM7457;
@@ -531,11 +604,19 @@
 			projectRoot = "";
 			targets = (
 				A950EAFD1DB00350005FC305 /* MynewtManager */,
+				5B3F69801FE2126F00677D1D /* MynewtManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5B3F697F1FE2126F00677D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A950EAFC1DB00350005FC305 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -594,12 +675,20 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MynewtManager/Pods-MynewtManager-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
 				"${BUILT_PRODUCTS_DIR}/MSWeakTimer/MSWeakTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor+Hex/UIColor_Hex.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaMQTT.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSWeakTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -609,6 +698,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5B3F697D1FE2126F00677D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3F69841FE2126F00677D1D /* MynewtManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A950EAFA1DB00350005FC305 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -684,6 +781,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5B3F69871FE2126F00677D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A950EAFD1DB00350005FC305 /* MynewtManager */;
+			targetProxy = 5B3F69861FE2126F00677D1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		5B3F689A1FE1AEEE00677D1D /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
@@ -712,6 +817,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5B3F69891FE2127000677D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MynewtManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adafruit.MynewtManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MynewtManager.app/MynewtManager";
+			};
+			name = Debug;
+		};
+		5B3F698A1FE2127000677D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MynewtManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adafruit.MynewtManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MynewtManager.app/MynewtManager";
+			};
+			name = Release;
+		};
 		A950EB0E1DB00351005FC305 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -845,6 +1004,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5B3F69881FE2127000677D1D /* Build configuration list for PBXNativeTarget "MynewtManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3F69891FE2127000677D1D /* Debug */,
+				5B3F698A1FE2127000677D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A950EAF91DB00350005FC305 /* Build configuration list for PBXProject "MynewtManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

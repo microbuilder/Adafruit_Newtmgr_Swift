@@ -8,5 +8,10 @@ target 'MynewtManager' do
     pod 'Charts', '~> 3.0.1'
     pod 'UIColor+Hex', '~> 1.0.1'
 	pod 'CocoaMQTT', '~> 1.0.19'
+
+	target 'MynewtManagerTests' do
+    	inherit! :search_paths
+	end
+
 end
 
