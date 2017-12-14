@@ -24,6 +24,33 @@ class MynewtManagerTests: XCTestCase {
         super.tearDown()
     }
 
+    class EmptyClass : NSObject, NewtStateDelegate {
+        var test: ((Data, NewtHandler.RequestCompletionHandler?) -> Void)?
+
+        func onNewtWrite(data: Data, completion: NewtHandler.RequestCompletionHandler?) {
+            test!(data, completion)
+        }
+    }
+
+    func testEchoSend() {
+        let echoSerialized = Data(bytes: [0x02, 0x00, 0x00, 0x09, 0x00, 0x00, 0x00, 0x00, 0xa1, 0x61, 0x64, 0x65, 0x48, 0x65, 0x6c, 0x6c, 0x6f])
+
+        let responseExpectation = expectation(description: "sendRequest echo")
+
+        let spy = EmptyClass()
+        newtHandler.delegate = spy
+        spy.test = {(data: Data, handler: NewtHandler.RequestCompletionHandler?) -> Void in
+            XCTAssertEqual(data, echoSerialized)
+            responseExpectation.fulfill()
+        }
+
+        newtHandler.sendRequest(with: .echo(message:"Hello"), completion: nil)
+
+        waitForExpectations(timeout: 10) { error in
+
+        }
+    }
+
     func testTaskStats() {
 
         let responseExpectation = expectation(description: "sendRequest TaskStats")
@@ -53,5 +80,4 @@ class MynewtManagerTests: XCTestCase {
 
         }
     }
-    
 }
