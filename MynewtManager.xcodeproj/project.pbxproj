@@ -77,6 +77,7 @@
 		5B3F69211FE1AEEF00677D1D /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F68DC1FE1AEEE00677D1D /* StatsViewController.swift */; };
 		5B3F69221FE1AEEF00677D1D /* StatsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F68DD1FE1AEEE00677D1D /* StatsDetailViewController.swift */; };
 		5B3F69841FE2126F00677D1D /* MynewtManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F69831FE2126F00677D1D /* MynewtManagerTests.swift */; };
+		7ADE957EC046ECEA9D1B3B23 /* Pods_MynewtManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC611C9EC1BA614ABBDAC3E /* Pods_MynewtManagerTests.framework */; };
 		A950EB021DB00351005FC305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A950EB011DB00351005FC305 /* AppDelegate.swift */; };
 		A950EB071DB00351005FC305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A950EB051DB00351005FC305 /* Main.storyboard */; };
 		A950EB091DB00351005FC305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A950EB081DB00351005FC305 /* Assets.xcassets */; };
@@ -192,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ADE957EC046ECEA9D1B3B23 /* Pods_MynewtManagerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,9 +527,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B3F69881FE2127000677D1D /* Build configuration list for PBXNativeTarget "MynewtManagerTests" */;
 			buildPhases = (
+				FCB789D3E196DA39123B95AA /* [CP] Check Pods Manifest.lock */,
 				5B3F697D1FE2126F00677D1D /* Sources */,
 				5B3F697E1FE2126F00677D1D /* Frameworks */,
 				5B3F697F1FE2126F00677D1D /* Resources */,
+				D704F2C1A2B0A637DDA4EC20 /* [CP] Embed Pods Frameworks */,
+				7E80B259A5788E82A9C5C263 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -667,6 +672,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7E80B259A5788E82A9C5C263 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MynewtManagerTests/Pods-MynewtManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D704F2C1A2B0A637DDA4EC20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MynewtManagerTests/Pods-MynewtManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E424736BA5ED051523A12972 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -693,6 +728,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MynewtManager/Pods-MynewtManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB789D3E196DA39123B95AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MynewtManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -819,6 +872,7 @@
 /* Begin XCBuildConfiguration section */
 		5B3F69891FE2127000677D1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FE894B28836458B3A26F0E /* Pods-MynewtManagerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -846,6 +900,7 @@
 		};
 		5B3F698A1FE2127000677D1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760276506DD74239C7BAE8BF /* Pods-MynewtManagerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

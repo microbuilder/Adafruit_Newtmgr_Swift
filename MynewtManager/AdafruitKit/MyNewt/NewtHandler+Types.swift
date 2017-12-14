@@ -237,3 +237,19 @@ extension NewtHandler {
         }
     }
 }
+
+extension NewtHandler.TaskStats: Equatable {}
+
+func ==(lhs: NewtHandler.TaskStats, rhs: NewtHandler.TaskStats) -> Bool {
+    let areEqual = lhs.taskId == rhs.taskId &&
+        lhs.name == rhs.name &&
+        lhs.state == rhs.state &&
+        lhs.runTime == rhs.runTime &&
+        lhs.contextSwichCount == rhs.contextSwichCount &&
+        lhs.stackSize == rhs.stackSize &&
+        lhs.stackUsed == rhs.stackUsed &&
+        lhs.lastSanityCheckin == rhs.lastSanityCheckin &&
+        lhs.nextSanityCheckin == rhs.nextSanityCheckin
+
+    return areEqual
+}
