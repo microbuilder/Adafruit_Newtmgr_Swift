@@ -19,6 +19,7 @@ class MynewtManagerTests: XCTestCase {
     }
 
     override func tearDown() {
+        newtHandler.stop()
         newtHandler = nil
         super.tearDown()
     }
