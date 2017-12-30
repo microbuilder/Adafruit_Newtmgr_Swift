@@ -1,16 +1,5 @@
 import Foundation
 
-public enum CBORError : Error {
-    //
-    case invalidCBOR
-    case invalidSubscript
-    
-    // Decoder
-    case unfinishedSequence
-    case wrongTypeInsideSequence
-    case incorrectUTF8String
-}
-
 public indirect enum CBOR {
     case unsignedInt(UInt)
     case negativeInt(UInt)

@@ -551,7 +551,8 @@ class NewtHandler {
         // Decode CBOR
         var cbor: CBOR?
         do {
-            cbor = try CBORDecoder(data: newtResponseCache).decodeItem()
+            // newtResponseCache is data, turn into [UInt8] or ArraySlice<UInt8> or CBORInputStream
+            cbor = try CBORDecoder(input: [UInt8](newtResponseCache)).decodeItem()
         }
         catch {
             DLog("Error: Can't decode CBOR")
